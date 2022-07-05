@@ -1,4 +1,4 @@
-# biolinks
+# Biolinks
 
 ## Simple link tree for your social media bios. 
 
