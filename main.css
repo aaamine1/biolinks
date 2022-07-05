@@ -36,3 +36,32 @@ header > img {
   border: 3px solid white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
+ul {
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 auto;
+  padding: 2em;
+
+}
+ul > li {
+  background-color: rgb(255, 255, 255, 0.7);
+  font-size: 15px;
+  border-radius: 10em;
+  padding: 1.5em;
+  margin: 1.4em 0;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+ul>li>a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
