@@ -46,7 +46,7 @@ ul {
 ul > li {
   background-color: rgb(255, 255, 255, 0.75);
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
-  font-size: 15px;
+  font-size: 18px;
   border-radius: 10em;
   padding: 1.5em;
   margin: 1.4em 0;
@@ -64,4 +64,16 @@ ul>li>a {
 a {
   text-decoration: none;
   color: black;
+}
+
+main {
+  position: relative;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+main.animated {
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 2s ease-in-out, filter 2s ease-in-out;
 }
